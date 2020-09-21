@@ -17,6 +17,7 @@ public class pickup : MonoBehaviour
         
     }
     private void OnCollisionEnter(Collision collision)
+    
     {
         GameManager.instance.score += 1;
         Debug.Log(GameManager.instance.score);
