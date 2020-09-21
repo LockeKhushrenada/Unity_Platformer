@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    float moveSpeed = 1;
+    float moveSpeed = 10;
     [SerializeField]
-    float jumpSpeed = 1;
+    float jumpSpeed = 10;
 
     bool isGrounded = true;
 
